@@ -1,0 +1,84 @@
+/* Site-Wide Styles */
+
+/* Sales page CSS */
+table a  {
+    border-bottom: 2px solid transparent!important;
+ }
+ 
+ table a:hover  {
+     border-bottom: 2px solid transparent!important;
+ }
+ 
+ /* Image and Video Outlines */
+ .site-main img[src$=".jpg"], .site-main img[src$=".jpeg"], .site-main .elementor-gallery-item, .elementor-cta__bg-overlay {
+    border: 1px solid #AAAAAA;
+  }
+  
+  .uael-video-type-youtube::before, .uael-video-type-hosted::before {
+    border: 1px solid #AAAAAA;
+  }
+
+  /* Blog & Link Styles */
+  
+  /* Blog */
+
+.post h2, .post h3, .post h4, .post h5, .post h6 {
+    margin-bottom: 10px;
+    margin-top: 25px;
+  }
+  
+  .blog-80 {
+    width: 80%;
+    border: 1px solid #808080!important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px!important;
+  }
+  
+  .post figcaption {
+    color: #808080;
+    font-size: 14px;
+    font-style: italic;
+  }
+  
+  b, strong {
+    font-weight: 600;
+  }
+  
+  /* Links */
+  
+  p a, em a, table a, .elementor-post-info__terms-list a {
+    font-weight: 600;
+    border-bottom: 2px solid rgba(0, 0, 0, .1)!important;
+    padding-bottom: 1px;
+  }
+  
+  p a:hover, em a:hover, table a:hover, .elementor-post-info__terms-list a:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, .1)!important;
+  }
+  
+  .elementor-post-info__terms-list a:hover {
+    color: #1B434B!important;
+  }
+   
+  .textwidget a {
+    border-bottom: none!important;	
+  }
+  
+  .textwidget a:hover {
+    border-bottom: none!important;
+  }
+  
+  .elementor-icon.elementor-social-icon,
+  .elementor-icon.elementor-social-icon:hover {
+      border-bottom-color: transparent!important;
+  }
+
+  /* Hide CC Check Field */
+  .wpforms-container .cc_check {
+	display: none;
+}
+
+.wpforms-is-recaptcha {
+ 	padding: 0px!important;
+}
+
+/*  */
