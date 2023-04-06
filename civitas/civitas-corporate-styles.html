@@ -1,0 +1,273 @@
+<!-- Corporate - Head - Priority 1 -->
+
+<style type="text/css">
+    /* Corporate Styles */
+
+    /* Header Menu */
+
+    .menu-item-516 a {
+        border: 2px solid #6a8cc2;
+    }
+
+    .menu-item-516 a:hover {
+        background-color: #6a8cc2;
+        color: #ffffff !important;
+    }
+
+    ul li::marker {
+        color: #a5d3e6;
+    }
+
+    .dark-background-link {
+        color: #ffffff !important;
+    }
+
+    /* Vimeo videos */
+    .vp-title-header {
+        display: none;
+    }
+
+    /* Communities Post type link styles */
+
+    .comm-link a {
+        text-align: center;
+        text-decoration: none !important;
+        color: #272424;
+    }
+
+    /* Corporate Animated Button Styles - Priority 5 */
+
+    /* General animated buttons with white backgrounds */
+
+    .animated-button a.elementor-button-link,
+    table .animated-button {
+        border: 2px solid #7b7b7b !important;
+        position: relative !important;
+    }
+
+    .animated-button a.elementor-button-link:hover,
+    table .animated-button:hover {
+        border: 2px solid #6a8cc2 !important;
+    }
+
+    .animated-button a.elementor-button-link:after,
+    table .animated-button:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 75%;
+        height: 108.5%;
+        margin-top: -2px;
+        margin-bottom: -2px;
+        border-top: 2px solid #fff !important;
+        border-bottom: 2px solid #fff !important;
+        top: 0%;
+        right: 12.5%;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .animated-button a.elementor-button-link:hover:after,
+    table .animated-button:hover:after {
+        animation-name: button-lines;
+        animation-duration: 0.75s;
+        animation-iteration-count: 1;
+        transform: scale(0, 1) !important;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+
+    /* General animated buttons with gray backgrounds */
+
+    .animated-button__gray a.elementor-button-link {
+        border: 2px solid #7B7B7B !important;
+        position: relative !important;
+    }
+
+    .animated-button__gray a.elementor-button-link:hover {
+        border: 2px solid var(--e-global-color-primary) !important;
+    }
+
+    .animated-button__gray a.elementor-button-link:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 75%;
+        height: 108.5%;
+        margin-top: -2px;
+        margin-bottom: -2px;
+        border-top: 2px solid #F0F0F0 !important;
+        border-bottom: 2px solid #F0F0F0 !important;
+        top: 0%;
+        right: 12.5%;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .animated-button__gray a.elementor-button-link:hover:after {
+        animation-name: button-lines;
+        animation-duration: 0.75s;
+        animation-iteration-count: 1;
+        transform: scale(0, 1) !important;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+
+    /* Blog/PR archives with gray backgrounds */
+
+    .animated-button__post-gray a.uael-post__read-more,
+    .animated-button__post-gray a.elementor-button-link {
+        position: relative !important;
+        border: 2px solid #7b7b7b !important;
+    }
+
+    .animated-button__post-gray a.uael-post__read-more:hover,
+    .animated-button__post-gray a.elementor-button-link:hover {
+        border: 2px solid #6a8cc2 !important;
+    }
+
+    .animated-button__post-gray a.uael-post__read-more:after,
+    .animated-button__post-gray a.elementor-button-link:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 75%;
+        height: 109%;
+        margin-top: -2px;
+        margin-bottom: -2px;
+        border-top: 2px solid #F0F0F0 !important;
+        border-bottom: 2px solid #F0F0F0 !important;
+        top: 0%;
+        right: 12.5%;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .animated-button__post-gray a.uael-post__read-more:hover:after,
+    .animated-button__post-gray a.elementor-button-link:hover:after {
+        animation-name: blog-gray-button-lines;
+        animation-duration: 0.75s;
+        animation-iteration-count: 1;
+        transform: scale(0, 1) !important;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+
+    /* Blog/PR archives with white backgrounds */
+
+    .animated-button__post-white a.uael-post__read-more,
+    .animated-button__post-gray a.elementor-button-link {
+        position: relative !important;
+        border: 2px solid #7b7b7b !important;
+    }
+
+    .animated-button__post-white a.uael-post__read-more:hover,
+    .animated-button__post-gray a.elementor-button-link:hover {
+        border: 2px solid #6a8cc2 !important;
+    }
+
+    .animated-button__post-white a.uael-post__read-more:after,
+    .animated-button__post-gray a.elementor-button-link:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 75%;
+        height: 109%;
+        margin-top: -2px;
+        margin-bottom: -2px;
+        border-top: 2px solid #fff !important;
+        border-bottom: 2px solid #fff !important;
+        top: 0%;
+        right: 12.5%;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .animated-button__post-white a.uael-post__read-more:hover:after,
+    .animated-button__post-gray a.elementor-button-link:hover:after {
+        animation-name: blog-white-button-lines;
+        animation-duration: 0.75s;
+        animation-iteration-count: 1;
+        transform: scale(0, 1) !important;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+
+    /* Small animated buttons with white backgrounds */
+
+    .animated-button__white__small a.elementor-button-link {
+        position: relative !important;
+    }
+
+    .animated-button__white__small a.elementor-button-link {
+        border: 2px solid #7b7b7b !important;
+    }
+
+    .animated-button__white__small a.elementor-button-link:hover {
+        border: 2px solid #6a8cc2 !important;
+    }
+
+    .animated-button__white__small a.elementor-button-link:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 75%;
+        height: 109%;
+        margin-top: -2px;
+        margin-bottom: -2px;
+        border-top: 2px solid #fff !important;
+        border-bottom: 2px solid #fff !important;
+        top: 0%;
+        right: 12.5%;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .animated-button__white__small a.elementor-button-link:hover:after {
+        animation-name: blog-white-button-lines;
+        animation-duration: 0.75s;
+        animation-iteration-count: 1;
+        transform: scale(0, 1) !important;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+
+    /* Small animated buttons with gray backgrounds */
+
+    .animated-button__gray__small a.elementor-button-link {
+        position: relative !important;
+    }
+
+    .animated-button__gray__small a.elementor-button-link {
+        border: 2px solid #7b7b7b !important;
+    }
+
+    .animated-button__gray__small a.elementor-button-link:hover {
+        border: 2px solid #6a8cc2 !important;
+    }
+
+    .animated-button__gray__small a.elementor-button-link:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 75%;
+        height: 109%;
+        margin-top: -2px;
+        margin-bottom: -2px;
+        border-top: 2px solid #F0F0F0 !important;
+        border-bottom: 2px solid #F0F0F0 !important;
+        top: 0%;
+        right: 12.5%;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .animated-button__gray__small a.elementor-button-link:hover:after {
+        animation-name: blog-gray-button-lines;
+        animation-duration: 0.75s;
+        animation-iteration-count: 1;
+        transform: scale(0, 1) !important;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+</style>
